@@ -3,7 +3,7 @@ import React from "react"
 export default function News( props ) {
 
     return(
-        <div className="news">
+        <div className="news" >
             <div className="news-img">
                 {
                     props.article.urlToImage!==null? <img src={props.article.urlToImage}/>
